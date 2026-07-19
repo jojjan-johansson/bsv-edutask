@@ -31,4 +31,4 @@ jobs:
           pip install -r requirements.pip
 
       - name: Run unit tests
-        run: pytest
+        run: pytest test/unit
